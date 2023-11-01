@@ -1,0 +1,75 @@
+.tabela6 {
+    border: 1px solid rgb(48, 2, 255);
+    width: 350px;
+    height: 350px;
+    border-collapse: separate
+    }
+.tabela7{
+    width: 350px;
+    height: 350px;
+    border-collapse: separate
+}
+
+.q1, .q5 , .q9{
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 70%;
+}
+
+.q3, .q4{
+    border-collapse: separate;
+    border-right: 3px solid rgb(55, 0, 255);
+    border-spacing: 10px;
+    width: 100%;
+
+}
+td, th{
+    border: 1px solid rgb(255, 6, 6);
+    font-size: 25px;
+    padding: 15px;
+   
+}
+h1{
+    text-align: center;
+    background: #ff00c8;
+}
+h2{
+    background: pink;
+}
+
+
+.preta{
+    background-image: url('preto.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.branco{
+    background-image: url('branco2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+ .center{
+    text-align: center;
+ }
+.top{
+    vertical-align: top;
+
+}
+.middle {
+    vertical-align: middle;
+}
+.bottom {
+    vertical-align: bottom;
+}
+.preto{
+    background-color: black;
+}
+
+.q9 tr:nth-child(even) td:nth-child(odd) {
+    background-color: #ff00c8;
+    }
+.q9 tr:nth-child(odd) td:nth-child(even) {
+    background-color: #0db2ff;
+    }
